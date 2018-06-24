@@ -1,0 +1,235 @@
+-------------------------------------------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed true
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:2:NonEmptyBST
+true:1:Smartphone:s001
+true:4:NonEmptyBST
+true:3:Laptop:l001
+true:6:NonEmptyBST
+true:5:Desktop:d001
+true:0:EmptyBST
+true:12:NonEmptyBST
+true:11:Desktop:d002
+true:18:NonEmptyBST
+true:17:Desktop:d003
+true:24:NonEmptyBST
+true:23:Desktop:d004
+true:10:NonEmptyBST
+true:9:Laptop:l002
+true:16:NonEmptyBST
+true:15:Laptop:l003
+true:22:NonEmptyBST
+true:21:Laptop:l004
+true:8:NonEmptyBST
+true:7:Smartphone:s002
+true:14:NonEmptyBST
+true:13:Smartphone:s003
+true:20:NonEmptyBST
+true:19:Smartphone:s004
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:0:EmptyBST
++:true:1:Smartphone:s001
++:true:7:Smartphone:s002
++:true:13:Smartphone:s003
++:true:19:Smartphone:s004
++:true:2:NonEmptyBST
++:true:4:NonEmptyBST
++:true:6:NonEmptyBST
++:true:8:NonEmptyBST
++:true:10:NonEmptyBST
++:true:12:NonEmptyBST
++:true:14:NonEmptyBST
++:true:16:NonEmptyBST
++:true:18:NonEmptyBST
++:true:20:NonEmptyBST
++:true:22:NonEmptyBST
++:true:24:NonEmptyBST
++:true:3:Laptop:l001
++:true:9:Laptop:l002
++:true:15:Laptop:l003
++:true:21:Laptop:l004
++:true:5:Desktop:d001
++:true:11:Desktop:d002
++:true:17:Desktop:d003
++:true:23:Desktop:d004
+
+# of reachable objects = 25
+# of unreachable objects = 0
+
+-------------------------------------------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed false
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+false:2:NonEmptyBST
+false:21:Laptop:l004
+false:4:NonEmptyBST
+false:23:Desktop:d004
+false:12:NonEmptyBST
+false:11:Desktop:d002
+false:0:EmptyBST
+false:18:NonEmptyBST
+false:17:Desktop:d003
+false:10:NonEmptyBST
+false:9:Laptop:l002
+false:16:NonEmptyBST
+false:15:Laptop:l003
+false:8:NonEmptyBST
+false:7:Smartphone:s002
+false:14:NonEmptyBST
+false:13:Smartphone:s003
+false:20:NonEmptyBST
+false:19:Smartphone:s004
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:false:0:EmptyBST
+-:true:1:Smartphone:s001
++:false:7:Smartphone:s002
++:false:13:Smartphone:s003
++:false:19:Smartphone:s004
++:false:2:NonEmptyBST
++:false:4:NonEmptyBST
+-:true:6:NonEmptyBST
++:false:8:NonEmptyBST
++:false:10:NonEmptyBST
++:false:12:NonEmptyBST
++:false:14:NonEmptyBST
++:false:16:NonEmptyBST
++:false:18:NonEmptyBST
++:false:20:NonEmptyBST
+-:true:22:NonEmptyBST
+-:true:24:NonEmptyBST
+-:true:3:Laptop:l001
++:false:9:Laptop:l002
++:false:15:Laptop:l003
++:false:21:Laptop:l004
+-:true:5:Desktop:d001
++:false:11:Desktop:d002
++:false:17:Desktop:d003
++:false:23:Desktop:d004
+
+# of reachable objects = 19
+# of unreachable objects = 6
+
+The unreachable objects have been deleted from the data structure maintaining Obj objects.
+
+-------------------------------------------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed true
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+true:2:NonEmptyBST
+true:21:Laptop:l004
+true:4:NonEmptyBST
+true:23:Desktop:d004
+true:18:NonEmptyBST
+true:17:Desktop:d003
+true:0:EmptyBST
+true:16:NonEmptyBST
+true:15:Laptop:l003
+true:14:NonEmptyBST
+true:13:Smartphone:s003
+true:20:NonEmptyBST
+true:19:Smartphone:s004
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
++:true:0:EmptyBST
+-:false:7:Smartphone:s002
++:true:13:Smartphone:s003
++:true:19:Smartphone:s004
++:true:2:NonEmptyBST
++:true:4:NonEmptyBST
+-:false:8:NonEmptyBST
+-:false:10:NonEmptyBST
+-:false:12:NonEmptyBST
++:true:14:NonEmptyBST
++:true:16:NonEmptyBST
++:true:18:NonEmptyBST
++:true:20:NonEmptyBST
+-:false:9:Laptop:l002
++:true:15:Laptop:l003
++:true:21:Laptop:l004
+-:false:11:Desktop:d002
++:true:17:Desktop:d003
++:true:23:Desktop:d004
+
+# of reachable objects = 13
+# of unreachable objects = 6
+
+The unreachable objects have been deleted from the data structure maintaining Obj objects.
+
+-------------------------------------------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed false
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
+-:true:0:EmptyBST
+-:true:13:Smartphone:s003
+-:true:19:Smartphone:s004
+-:true:2:NonEmptyBST
+-:true:4:NonEmptyBST
+-:true:14:NonEmptyBST
+-:true:16:NonEmptyBST
+-:true:18:NonEmptyBST
+-:true:20:NonEmptyBST
+-:true:15:Laptop:l003
+-:true:21:Laptop:l004
+-:true:17:Desktop:d003
+-:true:23:Desktop:d004
+
+# of reachable objects = 0
+# of unreachable objects = 13
+
+The unreachable objects have been deleted from the data structure maintaining Obj objects.
+
+-------------------------------------------------
+
+Mark-and-sweep GC emulation started.
+
+Mark phase started.
+The value of "reachable" variable changed true
+The following reachable objects visited by traversal.
+Display format is mark:objID:(description of object).
+
+
+Sweep phase started.
+The following allocated objects swept.
+Reachable objects are prefixed by +, unreachable objects by -.
+
+
+# of reachable objects = 0
+# of unreachable objects = 0
+
